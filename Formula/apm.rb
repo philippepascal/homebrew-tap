@@ -7,13 +7,7 @@ class Apm < Formula
   on_macos do
     on_arm do
       url "https://github.com/philippepascal/apm/releases/download/v#{version}/apm-v#{version}-aarch64-apple-darwin.tar.gz"
-      # Replace with real SHA-256 from checksums.txt in the GitHub Release
-      sha256 "0000000000000000000000000000000000000000000000000000000000000000"
-    end
-    on_intel do
-      url "https://github.com/philippepascal/apm/releases/download/v#{version}/apm-v#{version}-x86_64-apple-darwin.tar.gz"
-      # Replace with real SHA-256 from checksums.txt in the GitHub Release
-      sha256 "0000000000000000000000000000000000000000000000000000000000000000"
+      sha256 "884145b0eef914beced3d10d6c423945d90e5b9d5300f787bfb70e4c85ba6ad6"
     end
   end
 
