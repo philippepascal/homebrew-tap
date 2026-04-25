@@ -1,17 +1,13 @@
 class Ticker < Formula
   desc "Tick-based spreadsheet for time series, finance, and simulation"
   homepage "https://github.com/philippepascal/ticker"
-  version "0.0.6"
+  version "0.0.7"
   license "BUSL-1.1"
 
   on_macos do
     on_arm do
       url "https://github.com/philippepascal/ticker-releases/releases/download/v#{version}/ticker-v#{version}-aarch64-apple-darwin.tar.gz"
-      sha256 "0000000000000000000000000000000000000000000000000000000000000000"
-    end
-    on_intel do
-      url "https://github.com/philippepascal/ticker-releases/releases/download/v#{version}/ticker-v#{version}-x86_64-apple-darwin.tar.gz"
-      sha256 "0000000000000000000000000000000000000000000000000000000000000000"
+      sha256 "d160aceb3fac6fe9bd0e7e2253fcb676c98791bb4dad44164ec33349360081a1"
     end
   end
 
