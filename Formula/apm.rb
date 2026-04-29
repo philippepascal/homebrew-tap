@@ -1,13 +1,13 @@
 class Apm < Formula
   desc "Agentic project manager — CLI and server"
   homepage "https://github.com/philippepascal/apm"
-  version "0.1.13"
+  version "0.1.14"
   license "BSL-1.1"
 
   on_macos do
     on_arm do
       url "https://github.com/philippepascal/apm/releases/download/v#{version}/apm-v#{version}-aarch64-apple-darwin.tar.gz"
-      sha256 "c09e733f5edaacbdb8d5665d8112e077394ac4365f3fa8f708d76789f7ef6b62"
+      sha256 "b6442ce54ceaa1a590768a111ccfc3b3b7af09c494cb202943b793b5bebcf9e9"
     end
   end
 
