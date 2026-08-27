@@ -7,7 +7,7 @@ class Ticker < Formula
   on_macos do
     on_arm do
       url "https://github.com/philippepascal/ticker-releases/releases/download/v#{version}/ticker-v#{version}-aarch64-apple-darwin.tar.gz"
-      sha256 "18f1a3b1a86096b709c7f98705a2f311f4ae20971e2398250050dee5fd0161e0"
+      sha256 "ab426d7fd459c4c774dcb90d31846754cc0c91a3d42965f4b79d53d054306f6b"
     end
   end
 
